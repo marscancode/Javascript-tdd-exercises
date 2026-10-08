@@ -21,3 +21,17 @@ test("10 returns buzz", () => {
 test("95 returns buzz", () => {
   assert.equal(fizzBuzz(95), "buzz");
 });
+
+describe("divisible by 3 and 5", () => {
+  test("15 returns fizzbuzz", () => {
+    assert.equal(fizzBuzz(15), "fizzbuzz");
+  });
+});
+
+test("30 returns fizzbuzz", () => {
+  assert.equal(fizzBuzz(30), "fizzbuzz");
+});
+
+test("90 returns fizzbuzz", () => {
+  assert.equal(fizzBuzz(90), "fizzbuzz");
+});
