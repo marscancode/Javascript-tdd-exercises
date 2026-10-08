@@ -1,8 +1,8 @@
 function fizzBuzz(number) {
-  if (number % 5 === 0) {
-    return "buzz";
-  } else if (number % 15 === 0) {
+  if (number % 15 === 0) {
     return "fizzbuzz";
+  } else if (number % 5 === 0) {
+    return "buzz";
   }
   return "fizz";
 }
