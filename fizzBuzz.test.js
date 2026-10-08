@@ -14,3 +14,10 @@ describe("division by 5", () => {
   });
 });
 
+test("10 returns buzz", () => {
+  assert.equal(fizzBuzz(10), "buzz");
+});
+
+test("95 returns buzz", () => {
+  assert.equal(fizzBuzz(95), "buzz");
+});
